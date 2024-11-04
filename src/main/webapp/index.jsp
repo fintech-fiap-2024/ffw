@@ -7,12 +7,11 @@
   <link rel="stylesheet" href="./resources/css/bootstrap.css">
 </head>
 <body>
-<h1><%= "Hello World!" %>
-</h1>
+  <h1><%= "Hello World!" %></h1>
+  <div></div>
+  <img src="assets/icons/movimentos.svg">
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
-<c:forEach var="i" begin="1" end="5" step="1">
-  <p>${i} - FIAP</p>
-</c:forEach>
+
 </body>
 </html>
