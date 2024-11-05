@@ -1,16 +1,12 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: iagop
-  Date: 04/11/2024
-  Time: 14:59
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 <head>
     <title>Title</title>
 </head>
 <body>
-
+    <c:set var="headerTitle" value="CADASTRO"/>
+    <c:out value="${headerTitle}"/>
+    <jsp:include page="header.jsp" />
 </body>
 </html>

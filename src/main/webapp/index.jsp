@@ -12,8 +12,13 @@
   <div></div>
   <img src="assets/icons/movimentos.svg">
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
-<p style="font-family: 'Prata', serif">Olá, mundo</p>
+  <a href="hello-servlet">Hello Servlet</a>
+  <a href="./pages/configuracoes.jsp">Configuraçoes</a>
+  <a href="./pages/cadastro.jsp">Cadastro</a>
+
+
+
+  <p style="font-family: 'Prata', serif">Olá, mundo</p>
   <p>Olá, mundo</p>
 </body>
 </html>
