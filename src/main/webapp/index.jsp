@@ -5,6 +5,7 @@
 <head>
   <title>JSP - Hello World</title>
   <link rel="stylesheet" href="./resources/css/bootstrap.css">
+  <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
   <h1><%= "Hello World!" %></h1>
@@ -12,6 +13,7 @@
   <img src="assets/icons/movimentos.svg">
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
-
+<p style="font-family: 'Prata', serif">Olá, mundo</p>
+  <p>Olá, mundo</p>
 </body>
 </html>
